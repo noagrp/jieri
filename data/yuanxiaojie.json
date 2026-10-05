@@ -1,0 +1,84 @@
+{
+  "id": "yuanxiaojie",
+  "name": "元宵节",
+  "aliases": [
+    "上元节",
+    "元夕",
+    "灯节"
+  ],
+  "dateRule": "正月十五",
+  "calendarSystem": "农历",
+  "summary": "春节年俗周期中的重要节点，也是农历新年第一个月圆之夜。",
+  "origin": {
+    "overview": "元宵节的形成经历较长过程，灯火活动自汉代以后逐渐发展，唐宋以后城市灯会、游赏和娱乐尤为兴盛。"
+  },
+  "history": [
+    {
+      "period": "汉代",
+      "description": "正月十五相关祭祀和燃灯活动受到重视。"
+    },
+    {
+      "period": "唐代",
+      "description": "都城灯会和夜间游乐规模扩大，元宵成为重要公共节庆。"
+    },
+    {
+      "period": "宋代",
+      "description": "灯市、游赏、猜谜等城市节俗进一步发展。"
+    },
+    {
+      "period": "明清",
+      "description": "赏灯、烟火、社火等活动在各地形成丰富地方传统。"
+    }
+  ],
+  "customs": [
+    {
+      "name": "赏灯",
+      "description": "观赏花灯、灯会，是元宵最具代表性的活动。",
+      "regionalNotes": ""
+    },
+    {
+      "name": "猜灯谜",
+      "description": "把谜语悬于灯下供人猜解，宋以后尤其流行。",
+      "regionalNotes": ""
+    },
+    {
+      "name": "社火与游艺",
+      "description": "部分地区有舞龙、舞狮、踩高跷、秧歌等。",
+      "regionalNotes": "不同地区组合不同。"
+    }
+  ],
+  "foods": [
+    {
+      "name": "元宵",
+      "description": "多以糯米粉滚制或制成圆形馅食，北方“元宵”制作法较有代表性。",
+      "regionalVariations": [
+        "北方常见"
+      ]
+    },
+    {
+      "name": "汤圆",
+      "description": "糯米粉包馅煮食，寓意团圆。",
+      "regionalVariations": [
+        "南方及全国多地常见"
+      ]
+    }
+  ],
+  "storiesAndFigures": [],
+  "regionalTraditions": [
+    "闽台、客家、北方社火等地保留不同灯俗和巡游传统。"
+  ],
+  "culturalMeaning": "团圆、迎祥纳福，同时也是传统社会中重要的公共娱乐和社交节日。",
+  "modernObservance": "现代常以灯会、非遗展示、猜谜与城市夜游等方式庆祝。",
+  "notes": [],
+  "relatedCalendar": {
+    "nongli": "正月十五",
+    "jieqi": null
+  },
+  "sources": [
+    {
+      "type": "official",
+      "organization": "中国非物质文化遗产网·中国非物质文化遗产数字博物馆",
+      "url": "https://www.ihchina.cn/project_details/15069.html"
+    }
+  ]
+}
