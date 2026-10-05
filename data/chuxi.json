@@ -1,0 +1,78 @@
+{
+  "id": "chuxi",
+  "name": "除夕",
+  "aliases": [
+    "岁除",
+    "大年夜"
+  ],
+  "dateRule": "农历岁末最后一夜",
+  "calendarSystem": "农历",
+  "summary": "农历年的最后一夜，是春节年俗中最重要的家庭团聚时刻之一。",
+  "origin": {
+    "overview": "“除”有除旧、交替之意。除夕与岁末祭祀、迎新、守岁等传统结合，构成从旧岁进入新岁的关键时刻。"
+  },
+  "history": [
+    {
+      "period": "古代",
+      "description": "岁末逐疫、祭祀、迎新等仪式已有长期传统。"
+    },
+    {
+      "period": "唐宋以后",
+      "description": "守岁、团圆、馈赠等除夕活动不断丰富。"
+    },
+    {
+      "period": "明清至现代",
+      "description": "年夜饭、贴春联、守岁等成为广泛家庭年俗。"
+    }
+  ],
+  "customs": [
+    {
+      "name": "年夜饭",
+      "description": "家人团聚共进岁末晚餐，是现代除夕最核心的家庭活动之一。",
+      "regionalNotes": ""
+    },
+    {
+      "name": "祭祖",
+      "description": "不少地区除夕祭祖，表达对先人的追思与敬意。",
+      "regionalNotes": ""
+    },
+    {
+      "name": "守岁",
+      "description": "全家在夜间迎接新年到来。",
+      "regionalNotes": ""
+    },
+    {
+      "name": "贴春联",
+      "description": "通常在春节前完成，除夕是常见时间节点之一。",
+      "regionalNotes": ""
+    }
+  ],
+  "foods": [
+    {
+      "name": "团圆饭",
+      "description": "并非单一食品，而是一桌具有家庭和地域特色的年菜。",
+      "regionalVariations": [
+        "各地差异极大"
+      ]
+    },
+    {
+      "name": "鱼",
+      "description": "部分地区年夜饭食鱼，取“年年有余”等吉祥寓意。",
+      "regionalVariations": [
+        "广泛但并非统一"
+      ]
+    }
+  ],
+  "storiesAndFigures": [],
+  "regionalTraditions": [
+    "北方、江南、岭南、西南等地年夜饭菜式和祭祖方式差异明显。"
+  ],
+  "culturalMeaning": "辞旧迎新、家庭团聚、敬祖与对来年的祝愿。",
+  "modernObservance": "今天仍是春节期间最强的家庭团聚节点之一，电视、网络与即时通讯也成为现代守岁体验的一部分。",
+  "notes": [],
+  "relatedCalendar": {
+    "nongli": "农历岁末最后一夜",
+    "jieqi": null
+  },
+  "sources": []
+}
