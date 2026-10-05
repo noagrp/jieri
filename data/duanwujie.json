@@ -1,0 +1,108 @@
+{
+  "id": "duanwujie",
+  "name": "端午节",
+  "aliases": [
+    "端五",
+    "重午",
+    "蒲节"
+  ],
+  "dateRule": "五月初五",
+  "calendarSystem": "农历",
+  "summary": "五月初五的重要传统节日，兼有夏季禳灾保健、龙舟竞渡、食粽以及人物纪念等多重传统。",
+  "origin": {
+    "overview": "端午并非单一起源。古代五月节令禁忌、驱邪避疫、水上竞渡和人物纪念等传统长期叠加，形成今天丰富的端午文化。"
+  },
+  "history": [
+    {
+      "period": "先秦至两汉",
+      "description": "五月被视为暑湿、疾病易发时期，形成多种避邪禳灾和时令禁忌。"
+    },
+    {
+      "period": "魏晋南北朝",
+      "description": "屈原、伍子胥、曹娥等人物纪念叙事逐渐与地方节俗结合。"
+    },
+    {
+      "period": "唐宋以后",
+      "description": "龙舟、粽子、艾蒲等习俗广泛传播并地方化。"
+    }
+  ],
+  "customs": [
+    {
+      "name": "龙舟竞渡",
+      "description": "多人划龙舟竞赛，是端午最具识别度的公共活动之一。",
+      "regionalNotes": "长江流域、华南等地形式尤其丰富。"
+    },
+    {
+      "name": "挂艾草与菖蒲",
+      "description": "传统上用于驱邪避疫，也与夏季植物药用观念相连。",
+      "regionalNotes": ""
+    },
+    {
+      "name": "佩香囊",
+      "description": "装入芳香药材，兼具装饰和传统避秽寓意。",
+      "regionalNotes": ""
+    },
+    {
+      "name": "祭祀纪念",
+      "description": "部分地区祭屈原、伍子胥、曹娥或地方神祇。",
+      "regionalNotes": "对象因地区而异。"
+    }
+  ],
+  "foods": [
+    {
+      "name": "粽子",
+      "description": "以箬叶、芦苇叶等包裹糯米蒸煮，口味与馅料差异极大。",
+      "regionalVariations": [
+        "南北甜咸、肉粽、豆粽等"
+      ]
+    },
+    {
+      "name": "雄黄酒",
+      "description": "古代部分地区端午饮用或外用，带有避毒观念。",
+      "regionalVariations": [
+        "传统习俗；现代不应把雄黄当作可随意食用的保健品"
+      ]
+    }
+  ],
+  "storiesAndFigures": [
+    {
+      "name": "屈原",
+      "relationship": "最著名的端午纪念人物之一。",
+      "historicalNote": "纪念屈原是重要传统，但不能概括端午全部起源。"
+    },
+    {
+      "name": "伍子胥",
+      "relationship": "江浙部分地区的端午纪念人物。",
+      "historicalNote": "属于地方历史记忆的一部分。"
+    },
+    {
+      "name": "曹娥",
+      "relationship": "浙江一带相关端午纪念人物。",
+      "historicalNote": "与孝女传说和地方节俗相连。"
+    }
+  ],
+  "regionalTraditions": [
+    "湖北、湖南、江苏、浙江、福建、广东等地形成不同龙舟、祭祀与饮食传统。"
+  ],
+  "culturalMeaning": "禳灾避疫、纪念先贤、社区协作与水上竞赛文化。",
+  "modernObservance": "今天常结合龙舟赛事、非遗展示、社区包粽等活动延续。",
+  "notes": [
+    "端午节不能只解释为“纪念屈原”。"
+  ],
+  "relatedCalendar": {
+    "nongli": "五月初五",
+    "jieqi": null
+  },
+  "sources": [
+    {
+      "type": "official",
+      "organization": "中国非物质文化遗产网·中国非物质文化遗产数字博物馆",
+      "url": "https://www.ihchina.cn/project_details/14911.html"
+    },
+    {
+      "type": "official",
+      "organization": "中国非物质文化遗产网·中国非物质文化遗产数字博物馆",
+      "url": "https://www.ihchina.cn/project_details/11790/"
+    }
+  ]
+}
