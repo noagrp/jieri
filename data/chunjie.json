@@ -1,0 +1,113 @@
+{
+  "id": "chunjie",
+  "name": "春节",
+  "aliases": [
+    "新年",
+    "过年"
+  ],
+  "dateRule": "正月初一",
+  "calendarSystem": "农历",
+  "summary": "中国最重要的传统节日之一。今天所说的春节通常不只指正月初一，还包括年前准备、除夕、拜年、元宵等较长年俗周期。",
+  "origin": {
+    "overview": "春节与岁首礼俗、祭祀、辞旧迎新和农耕社会的年度节律长期结合。现代“春节”作为农历新年名称，与近代历法名称调整有关。"
+  },
+  "history": [
+    {
+      "period": "先秦至汉代",
+      "description": "岁首、祭祀和迎新活动逐渐形成制度与民俗传统。"
+    },
+    {
+      "period": "唐宋以后",
+      "description": "节庆娱乐、拜年、饮食、灯会等内容日益丰富。"
+    },
+    {
+      "period": "明清",
+      "description": "地方年俗体系更加成熟，形成贴春联、守岁、拜年等广泛传统。"
+    },
+    {
+      "period": "近现代",
+      "description": "春节成为农历新年的通行名称，并持续吸收现代家庭、城市与公共文化活动。"
+    }
+  ],
+  "customs": [
+    {
+      "name": "祭祖与祭祀",
+      "description": "不少地区在岁末、新年举行祭祖或祭祀活动，表达敬祖、祈福与迎新。",
+      "regionalNotes": "仪式时间和对象差异很大。"
+    },
+    {
+      "name": "贴春联与年画",
+      "description": "以吉祥文字和图像装饰门户，表达迎新纳福。",
+      "regionalNotes": ""
+    },
+    {
+      "name": "守岁",
+      "description": "除夕夜家人团聚，辞旧迎新并等待新年到来。",
+      "regionalNotes": ""
+    },
+    {
+      "name": "拜年",
+      "description": "正月期间向长辈、亲友问候祝福。",
+      "regionalNotes": ""
+    },
+    {
+      "name": "压岁钱",
+      "description": "长辈赠予晚辈，寓意祝福、护佑与成长。",
+      "regionalNotes": ""
+    }
+  ],
+  "foods": [
+    {
+      "name": "年糕",
+      "description": "“年高”的谐音使其常带有步步高升等吉祥寓意。",
+      "regionalVariations": [
+        "江南等地形式多样"
+      ]
+    },
+    {
+      "name": "饺子",
+      "description": "北方春节与除夕常见食物之一。",
+      "regionalVariations": [
+        "北方较常见"
+      ]
+    },
+    {
+      "name": "汤圆",
+      "description": "部分南方地区春节、元宵期间常食，象征团圆。",
+      "regionalVariations": [
+        "南方及部分地区"
+      ]
+    }
+  ],
+  "storiesAndFigures": [
+    {
+      "name": "年兽传说",
+      "relationship": "民间解释爆竹、红色等年俗的著名故事。",
+      "historicalNote": "属于后世广泛流传的民间传说，不应当作春节唯一历史起源。"
+    }
+  ],
+  "regionalTraditions": [
+    "全国各地年俗差异显著；不同民族也形成具有本民族特色的新年仪式和饮食。"
+  ],
+  "culturalMeaning": "辞旧迎新、家庭团聚、敬祖祈福、社会交往与对新一年的期望。",
+  "modernObservance": "今天仍是中国最重要的家庭和公共节庆之一，并通过庙会、文旅活动、网络拜年等方式出现新的表达。",
+  "notes": [
+    "春节不是立春；春节按农历正月初一，立春按太阳节气计算。"
+  ],
+  "relatedCalendar": {
+    "nongli": "正月初一",
+    "jieqi": null
+  },
+  "sources": [
+    {
+      "type": "official",
+      "organization": "中国非物质文化遗产网·中国非物质文化遗产数字博物馆",
+      "url": "https://www.ihchina.cn/project_details/14904/"
+    },
+    {
+      "type": "official",
+      "organization": "中国非物质文化遗产网·中国非物质文化遗产数字博物馆",
+      "url": "https://www.ihchina.cn/directory_details/29431"
+    }
+  ]
+}
