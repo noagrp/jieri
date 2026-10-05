@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#160b08">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="传统节日">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="./icon-512.png">
+<link rel="apple-touch-icon" href="./apple-touch-icon.png">
+<title>传统节日</title>
+<style>
+:root{--bg:#0d0605;--bg2:#160b08;--surface:#1d100c;--surface2:#26140f;--text:#f3eadb;--muted:#a98f78;--red:#c54a36;--gold:#e0bd72;--gold2:#f0d99a;--line:rgba(224,189,114,.2);--shadow:0 18px 48px rgba(0,0,0,.26)}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{margin:0;min-height:100vh;color:var(--text);font-family:"Noto Serif SC","Songti SC","Microsoft YaHei",system-ui,-apple-system,sans-serif;background:radial-gradient(circle at 10% 0%,rgba(197,74,54,.11),transparent 30rem),radial-gradient(circle at 92% 18%,rgba(224,189,114,.07),transparent 25rem),linear-gradient(180deg,var(--bg2),var(--bg))}
+.page{width:min(1220px,100%);margin:auto;padding:max(28px,env(safe-area-inset-top)) max(18px,env(safe-area-inset-right)) max(30px,env(safe-area-inset-bottom)) max(18px,env(safe-area-inset-left))}
+header{display:flex;align-items:center;justify-content:space-between;gap:18px;padding-bottom:18px;margin-bottom:24px;border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:14px}.mark{width:56px;height:56px;display:grid;place-items:center;border-radius:17px;border:1px solid rgba(224,189,114,.5);background:rgba(126,43,30,.2);color:var(--gold2);font-size:28px;font-weight:800}
+h1{margin:0;color:var(--gold2);font-size:clamp(28px,4vw,42px)}.sub{margin:5px 0 0;color:var(--muted);font-size:12px}.back{color:var(--muted);text-decoration:none;font-size:12px}.back:hover{color:var(--gold2)}
+.note{margin:0 0 22px;padding:15px 17px;border:1px solid var(--line);border-radius:15px;background:rgba(33,17,13,.76);color:#d3c5b3;font-size:12px;line-height:1.8}
+.layout{display:grid;grid-template-columns:300px minmax(0,1fr);gap:18px;align-items:start}
+.library{padding:14px;border:1px solid var(--line);border-radius:18px;background:rgba(24,12,9,.72);position:sticky;top:14px}
+.search{width:100%;padding:11px 12px;margin-bottom:10px;border:1px solid var(--line);border-radius:11px;background:#110a08;color:var(--text);font:inherit;outline:none}.search:focus{border-color:rgba(224,189,114,.5)}
+.list{display:grid;gap:7px}.festival-btn{width:100%;padding:11px 12px;text-align:left;border:1px solid rgba(224,189,114,.12);border-radius:12px;background:rgba(37,19,14,.65);color:inherit;font:inherit;cursor:pointer}.festival-btn:hover,.festival-btn.selected{border-color:rgba(224,189,114,.45);background:rgba(66,29,21,.82)}.festival-btn strong{display:block;color:#ead8b2;font-size:13px}.festival-btn small{display:block;margin-top:3px;color:#9f8975;font-size:10px;line-height:1.4}
+.detail{min-width:0;padding:22px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(180deg,var(--surface2),var(--surface));box-shadow:var(--shadow)}
+.hero{display:flex;justify-content:space-between;gap:18px;align-items:flex-start}.hero h2{margin:0;color:var(--gold2);font-size:32px}.aliases{margin-top:5px;color:var(--muted);font-size:12px}.badge{padding:7px 10px;border:1px solid var(--line);border-radius:999px;color:var(--gold2);font-size:11px;white-space:nowrap}
+.summary{margin:16px 0 0;color:#d4c8b9;font-size:13px;line-height:1.8}
+.section{margin-top:18px;padding-top:16px;border-top:1px solid rgba(224,189,114,.12)}.section h3{margin:0 0 10px;color:var(--gold);font-size:15px}.section p{margin:0;color:#c9bdaf;font-size:12px;line-height:1.85}
+.timeline,.items{display:grid;gap:8px}.entry{padding:11px 12px;border:1px solid rgba(224,189,114,.11);border-radius:12px;background:rgba(9,6,5,.18)}.entry b{display:block;margin-bottom:4px;color:#ead9ba;font-size:12px}.entry span{display:block;color:#a99b8c;font-size:11px;line-height:1.7}
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.linkbox{display:flex;gap:8px;flex-wrap:wrap}.linkbox a{padding:8px 10px;border:1px solid var(--line);border-radius:999px;color:#d9c294;text-decoration:none;font-size:10px}
+.source a{color:#cdb77f;word-break:break-all;text-decoration:none}
+.loading{padding:30px;text-align:center;color:var(--muted)}
+footer{display:flex;justify-content:center;gap:8px;margin-top:36px;padding-top:18px;border-top:1px solid var(--line);color:#856f5d;font-size:11px}footer a{color:inherit;text-decoration:none}
+@media(max-width:850px){.layout{grid-template-columns:1fr}.library{position:static}.list{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:600px){.page{padding-left:13px;padding-right:13px}.mark{width:50px;height:50px}.list{grid-template-columns:repeat(2,minmax(0,1fr))}.detail{padding:17px}.hero{display:block}.badge{display:inline-block;margin-top:10px}.two{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main class="page">
+<header>
+  <div class="brand"><div class="mark" aria-hidden="true">节</div><div><h1>传统节日</h1><p class="sub">历史 · 起源 · 习俗 · 饮食 · 地域 · 文化</p></div></div>
+  <a class="back" href="https://noagrp.github.io/zhong/">返回 中</a>
+</header>
+
+<div class="note" id="scopeNote"></div>
+
+<section class="layout">
+  <aside class="library">
+    <input class="search" id="search" type="search" placeholder="搜索节日、日期或关键词">
+    <div class="list" id="list"></div>
+  </aside>
+  <article class="detail" id="detail"><div class="loading">资料载入中…</div></article>
+</section>
+
+<footer><a href="https://noagrp.github.io/home/">noagrp home</a><span>·</span><a href="https://noagrp.github.io/zhong/">中</a></footer>
+</main>
+
+<script src="./src/jieri-engine.js"></script>
+<script>
+(async()=>{
+ const $=id=>document.getElementById(id);
+ const esc=s=>String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m]));
+ try{
+  const engine=await loadJieriEngine("./data/festivals.json?v=20261006-1");
+  const meta=engine.getMeta();
+  let selected=engine.list()[0]?.id||null;
+  $("scopeNote").textContent=meta.scopeNote+" "+meta.note;
+
+  function renderList(items){
+    $("list").innerHTML=items.map(x=>'<button type="button" class="festival-btn'+(x.id===selected?' selected':'')+'" data-id="'+esc(x.id)+'"><strong>'+esc(x.name)+'</strong><small>'+esc(x.dateRule)+' · '+esc(x.calendarSystem)+'</small></button>').join("");
+    $("list").querySelectorAll(".festival-btn").forEach(b=>b.addEventListener("click",()=>select(b.dataset.id)));
+  }
+
+  function entries(arr,formatter){
+    return (arr||[]).map(formatter).join("");
+  }
+
+  async function select(id){
+    selected=id;renderList(engine.search($("search").value));
+    $("detail").innerHTML='<div class="loading">资料载入中…</div>';
+    const d=await engine.loadFestival(id);
+    const calLinks=[];
+    if(d.relatedCalendar?.nongli)calLinks.push('<a href="https://noagrp.github.io/nongli/">农历：'+esc(d.relatedCalendar.nongli)+'</a>');
+    if(d.relatedCalendar?.jieqi)calLinks.push('<a href="https://noagrp.github.io/jieqi/">节气：'+esc(d.relatedCalendar.jieqi)+'</a>');
+    $("detail").innerHTML=
+      '<div class="hero"><div><h2>'+esc(d.name)+'</h2><div class="aliases">'+esc((d.aliases||[]).join(" · "))+'</div></div><div class="badge">'+esc(d.dateRule)+' · '+esc(d.calendarSystem)+'</div></div>'+
+      '<p class="summary">'+esc(d.summary)+'</p>'+
+      '<div class="section"><h3>起源与形成</h3><p>'+esc(d.origin?.overview||"")+'</p></div>'+
+      '<div class="section"><h3>历史发展</h3><div class="timeline">'+entries(d.history,x=>'<div class="entry"><b>'+esc(x.period)+'</b><span>'+esc(x.description)+'</span></div>')+'</div></div>'+
+      '<div class="section"><h3>传统习俗</h3><div class="two">'+entries(d.customs,x=>'<div class="entry"><b>'+esc(x.name)+'</b><span>'+esc(x.description)+(x.regionalNotes?'<br>'+esc(x.regionalNotes):'')+'</span></div>')+'</div></div>'+
+      '<div class="section"><h3>传统饮食</h3><div class="two">'+entries(d.foods,x=>'<div class="entry"><b>'+esc(x.name)+'</b><span>'+esc(x.description)+(x.regionalVariations?.length?'<br>地域：'+esc(x.regionalVariations.join("、")):'')+'</span></div>')+'</div></div>'+
+      (d.storiesAndFigures?.length?'<div class="section"><h3>人物与传说</h3><div class="items">'+entries(d.storiesAndFigures,x=>'<div class="entry"><b>'+esc(x.name)+'</b><span>'+esc(x.relationship)+'<br>'+esc(x.historicalNote)+'</span></div>')+'</div></div>':'')+
+      '<div class="section"><h3>地域差异</h3><div class="items">'+entries(d.regionalTraditions,x=>'<div class="entry"><span>'+esc(x)+'</span></div>')+'</div></div>'+
+      '<div class="section"><h3>文化意义</h3><p>'+esc(d.culturalMeaning)+'</p></div>'+
+      '<div class="section"><h3>现代传承</h3><p>'+esc(d.modernObservance)+'</p></div>'+
+      (d.notes?.length?'<div class="section"><h3>阅读提示</h3><div class="items">'+entries(d.notes,x=>'<div class="entry"><span>'+esc(x)+'</span></div>')+'</div></div>':'')+
+      (calLinks.length?'<div class="section"><h3>相关历法</h3><div class="linkbox">'+calLinks.join("")+'</div></div>':'')+
+      (d.sources?.length?'<div class="section source"><h3>参考来源</h3><div class="items">'+entries(d.sources,x=>'<div class="entry"><b>'+esc(x.organization||x.type)+'</b><span><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.url)+'</a></span></div>')+'</div></div>':'');
+  }
+
+  $("search").addEventListener("input",e=>renderList(engine.search(e.target.value)));
+  renderList(engine.list());
+  if(selected)await select(selected);
+  if("serviceWorker" in navigator)navigator.serviceWorker.register("./sw.js").catch(()=>{});
+ }catch(e){
+  $("detail").innerHTML='<div class="loading">节日资料载入失败，请刷新页面再试。</div>';
+ }
+})();
+</script>
+</body>
+</html>
