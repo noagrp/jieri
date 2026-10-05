@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "name": "传统节日",
+    "version": "1.0.0",
+    "scopeNote": "本资料介绍中国传统节日及相关传统习俗、饮食、信仰与文化背景。不同地区、族群与时代的做法可能有所差异，部分习俗今天仍有传承，部分则主要见于历史记载或地方传统。",
+    "note": "本库为节日文化参考资料，不负责换算当年实际公历日期。农历节日日期可结合农历工具理解；清明、冬至等节气相关日期可结合二十四节气工具理解。"
+  },
+  "festivals": [
+    {
+      "id": "chunjie",
+      "name": "春节",
+      "dateRule": "正月初一",
+      "calendarSystem": "农历",
+      "summary": "辞旧迎新、团圆、祈福，是中国最重要的传统节日之一。",
+      "file": "./data/chunjie.json"
+    },
+    {
+      "id": "yuanxiaojie",
+      "name": "元宵节",
+      "dateRule": "正月十五",
+      "calendarSystem": "农历",
+      "summary": "春节年俗的重要收束节点，以赏灯、猜谜、食元宵或汤圆等活动著称。",
+      "file": "./data/yuanxiaojie.json"
+    },
+    {
+      "id": "qingmingjie",
+      "name": "清明节",
+      "dateRule": "清明节气前后",
+      "calendarSystem": "节气",
+      "summary": "兼具节气与节日属性，核心文化包括祭祖扫墓、慎终追远与踏青。",
+      "file": "./data/qingmingjie.json"
+    },
+    {
+      "id": "duanwujie",
+      "name": "端午节",
+      "dateRule": "五月初五",
+      "calendarSystem": "农历",
+      "summary": "兼有避疫禳灾、龙舟竞渡、食粽与人物纪念等多重传统。",
+      "file": "./data/duanwujie.json"
+    },
+    {
+      "id": "qixi",
+      "name": "七夕节",
+      "dateRule": "七月初七",
+      "calendarSystem": "农历",
+      "summary": "与牛郎织女传说、乞巧习俗和女性手工技艺传统关系密切。",
+      "file": "./data/qixi.json"
+    },
+    {
+      "id": "zhongyuanjie",
+      "name": "中元节",
+      "dateRule": "七月十五前后",
+      "calendarSystem": "农历",
+      "summary": "与祭祖、荐亡、普度等信仰和地方民俗相关，地域差异较大。",
+      "file": "./data/zhongyuanjie.json"
+    },
+    {
+      "id": "zhongqiujie",
+      "name": "中秋节",
+      "dateRule": "八月十五",
+      "calendarSystem": "农历",
+      "summary": "以赏月、团圆、拜月和月饼等习俗为代表。",
+      "file": "./data/zhongqiujie.json"
+    },
+    {
+      "id": "chongyangjie",
+      "name": "重阳节",
+      "dateRule": "九月初九",
+      "calendarSystem": "农历",
+      "summary": "传统上有登高、赏菊、佩茱萸等习俗，现代又突出敬老主题。",
+      "file": "./data/chongyangjie.json"
+    },
+    {
+      "id": "labajie",
+      "name": "腊八节",
+      "dateRule": "腊月初八",
+      "calendarSystem": "农历",
+      "summary": "岁末传统节日之一，常见腊八粥、祭祀与迎接年节的习俗。",
+      "file": "./data/labajie.json"
+    },
+    {
+      "id": "dongzhi",
+      "name": "冬至",
+      "dateRule": "冬至节气",
+      "calendarSystem": "节气",
+      "summary": "既是二十四节气的重要节点，也长期形成祭祖、团聚与时令饮食传统。",
+      "file": "./data/dongzhi.json"
+    },
+    {
+      "id": "chuxi",
+      "name": "除夕",
+      "dateRule": "农历岁末最后一夜",
+      "calendarSystem": "农历",
+      "summary": "农历年的最后一夜，以团圆饭、守岁、祭祖和迎新为核心。",
+      "file": "./data/chuxi.json"
+    }
+  ]
+}
