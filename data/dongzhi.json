@@ -1,0 +1,82 @@
+{
+  "id": "dongzhi",
+  "name": "冬至",
+  "aliases": [
+    "冬节",
+    "亚岁（历史称谓之一）"
+  ],
+  "dateRule": "冬至节气",
+  "calendarSystem": "节气",
+  "summary": "二十四节气中的重要节点，在传统社会又发展出祭祖、团聚和时令饮食等节日性习俗。",
+  "origin": {
+    "overview": "冬至是太阳运行位置明确的节气节点。由于白昼变化显著、岁时意义突出，古代很早就给予冬至重要礼仪地位。"
+  },
+  "history": [
+    {
+      "period": "先秦汉代",
+      "description": "冬至已具有历法、礼仪与政治意义。"
+    },
+    {
+      "period": "唐宋",
+      "description": "冬至朝贺、祭祀和民间节俗进一步发展。"
+    },
+    {
+      "period": "明清以后",
+      "description": "祭祖、团聚与地方冬至饮食持续传承。"
+    }
+  ],
+  "customs": [
+    {
+      "name": "祭祖",
+      "description": "南北多地有冬至祭祖或家祭传统。",
+      "regionalNotes": ""
+    },
+    {
+      "name": "团聚",
+      "description": "部分地区把冬至视为重要家庭聚会节点。",
+      "regionalNotes": ""
+    },
+    {
+      "name": "数九",
+      "description": "民间常从冬至后开始“数九”，记录寒冷进程。",
+      "regionalNotes": ""
+    }
+  ],
+  "foods": [
+    {
+      "name": "饺子",
+      "description": "北方冬至常见食品之一。",
+      "regionalVariations": [
+        "北方"
+      ]
+    },
+    {
+      "name": "汤圆",
+      "description": "江南及南方部分地区常见，寓意团圆。",
+      "regionalVariations": [
+        "南方"
+      ]
+    },
+    {
+      "name": "羊肉等温补食物",
+      "description": "部分地区冬至有进补习惯。",
+      "regionalVariations": [
+        "地域差异大"
+      ]
+    }
+  ],
+  "storiesAndFigures": [],
+  "regionalTraditions": [
+    "冬至食俗差异很大，不能简单概括为全国都吃饺子或都吃汤圆。"
+  ],
+  "culturalMeaning": "顺应冬季节律、祭祖团聚和对阴阳消长、岁时转换的传统理解。",
+  "modernObservance": "现代仍保留家庭聚餐、祭祖和地方节庆活动。",
+  "notes": [
+    "冬至日期由太阳节气决定，不按固定农历月日。"
+  ],
+  "relatedCalendar": {
+    "nongli": null,
+    "jieqi": "冬至节气"
+  },
+  "sources": []
+}
