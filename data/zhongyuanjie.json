@@ -1,0 +1,68 @@
+{
+  "id": "zhongyuanjie",
+  "name": "中元节",
+  "aliases": [
+    "七月半",
+    "盂兰盆节（相关传统）"
+  ],
+  "dateRule": "七月十五前后",
+  "calendarSystem": "农历",
+  "summary": "农历七月重要的祭祖、荐亡与地方普度节俗集合，不同地区日期和仪式差异很大。",
+  "origin": {
+    "overview": "中元节的形成与道教中元观念、佛教盂兰盆传统以及更早的秋季祖先祭祀习俗长期互动有关。"
+  },
+  "history": [
+    {
+      "period": "古代",
+      "description": "七月荐祖、祭祀和秋成相关活动逐渐发展。"
+    },
+    {
+      "period": "魏晋南北朝以后",
+      "description": "道教中元与佛教盂兰盆相关观念对民间七月节俗产生影响。"
+    },
+    {
+      "period": "明清以后",
+      "description": "祭祖、普度、河灯等地方传统更加丰富。"
+    }
+  ],
+  "customs": [
+    {
+      "name": "祭祖",
+      "description": "家庭祭祀先人，是许多地区七月半的重要内容。",
+      "regionalNotes": ""
+    },
+    {
+      "name": "普度",
+      "description": "部分地区举行面向无主孤魂的祭祀与供献。",
+      "regionalNotes": "闽台及华南部分地区尤有代表性。"
+    },
+    {
+      "name": "放河灯",
+      "description": "部分地区以灯寄托追思、祈愿或荐亡。",
+      "regionalNotes": "并非各地都有。"
+    }
+  ],
+  "foods": [
+    {
+      "name": "祭祀供品",
+      "description": "供品依地区、家庭与宗教传统而异。",
+      "regionalVariations": [
+        "没有统一全国性节食"
+      ]
+    }
+  ],
+  "storiesAndFigures": [],
+  "regionalTraditions": [
+    "有些地区在七月十四、十五或其他相近日期举行相关活动，不能简单视为全国完全一致。"
+  ],
+  "culturalMeaning": "祖先纪念、生命观念、社区祭祀与地方宗教文化。",
+  "modernObservance": "现代仍见家庭祭祖、地方普度和非遗活动，同时也出现更简化的纪念方式。",
+  "notes": [
+    "“中元节”“七月半”“盂兰盆”等概念有联系但并不完全等同，具体仪式需区分地区和宗教背景。"
+  ],
+  "relatedCalendar": {
+    "nongli": "七月十五前后",
+    "jieqi": null
+  },
+  "sources": []
+}
