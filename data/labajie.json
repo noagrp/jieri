@@ -68,5 +68,11 @@
     "nongli": "腊月初八",
     "jieqi": null
   },
-  "sources": []
+  "sources": [
+    {
+      "type": "official",
+      "organization": "佳木斯市人民政府",
+      "url": "https://www.hljms.gov.cn/mss/c100519/202212/c06_58670.shtml"
+    }
+  ]
 }
