@@ -1,0 +1,95 @@
+{
+  "id": "zhongqiujie",
+  "name": "中秋节",
+  "aliases": [
+    "月夕",
+    "仲秋节",
+    "团圆节"
+  ],
+  "dateRule": "八月十五",
+  "calendarSystem": "农历",
+  "summary": "以赏月、团圆、拜月与月饼为代表的传统节日，日期位于农历秋季中段。",
+  "origin": {
+    "overview": "中秋的节俗与古代秋季祭月、赏月传统长期发展有关，唐宋以后文人赏月和城市节庆推动其社会影响扩大。"
+  },
+  "history": [
+    {
+      "period": "先秦至汉",
+      "description": "秋季祭月等礼俗提供文化基础。"
+    },
+    {
+      "period": "唐代",
+      "description": "赏月、咏月活动更加兴盛。"
+    },
+    {
+      "period": "宋代",
+      "description": "八月十五作为节日的社会影响明显扩大。"
+    },
+    {
+      "period": "明清",
+      "description": "团圆、月饼、拜月等习俗进一步普及。"
+    }
+  ],
+  "customs": [
+    {
+      "name": "赏月",
+      "description": "中秋夜观月、饮宴，是最具代表性的节俗。",
+      "regionalNotes": ""
+    },
+    {
+      "name": "拜月",
+      "description": "部分地区设香案祭月或进行女性相关拜月仪式。",
+      "regionalNotes": ""
+    },
+    {
+      "name": "团聚",
+      "description": "家庭聚餐与归家团聚成为现代中秋的重要主题。",
+      "regionalNotes": ""
+    }
+  ],
+  "foods": [
+    {
+      "name": "月饼",
+      "description": "圆形月饼与团圆寓意紧密联系，馅料、饼皮和制作方式地域差异很大。",
+      "regionalVariations": [
+        "广式、苏式、京式、滇式等"
+      ]
+    },
+    {
+      "name": "时令水果",
+      "description": "柚子、菱角、芋头等在部分地区常见。",
+      "regionalVariations": [
+        "地域性强"
+      ]
+    }
+  ],
+  "storiesAndFigures": [
+    {
+      "name": "嫦娥奔月",
+      "relationship": "中秋最著名的月亮神话之一。",
+      "historicalNote": "属于神话传统，不等同于中秋节唯一历史起源。"
+    },
+    {
+      "name": "吴刚伐桂",
+      "relationship": "与月宫想象有关的传统故事。",
+      "historicalNote": "常作为中秋月亮文化的一部分流传。"
+    }
+  ],
+  "regionalTraditions": [
+    "各地有烧塔、舞火龙、博饼、拜月等不同传统。"
+  ],
+  "culturalMeaning": "家庭团圆、秋收感恩、月亮审美与乡土情感。",
+  "modernObservance": "现代以家庭聚会、送月饼、灯会和文旅活动等方式庆祝。",
+  "notes": [],
+  "relatedCalendar": {
+    "nongli": "八月十五",
+    "jieqi": null
+  },
+  "sources": [
+    {
+      "type": "official",
+      "organization": "中国非物质文化遗产网·中国非物质文化遗产数字博物馆",
+      "url": "https://www.ihchina.cn/project_details/14931/"
+    }
+  ]
+}
