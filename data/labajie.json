@@ -1,0 +1,72 @@
+{
+  "id": "labajie",
+  "name": "腊八节",
+  "aliases": [
+    "腊八"
+  ],
+  "dateRule": "腊月初八",
+  "calendarSystem": "农历",
+  "summary": "农历腊月初八的岁末节日，最具代表性的习俗是食腊八粥，也常与寺院施粥、祭祀和迎年准备联系。",
+  "origin": {
+    "overview": "“腊”与岁终祭祀、冬季时令长期有关。后世佛教成道日传统与民间腊日习俗互动，使腊八形成今天的多层文化。"
+  },
+  "history": [
+    {
+      "period": "古代",
+      "description": "岁末腊祭是重要年终礼俗。"
+    },
+    {
+      "period": "佛教传播以后",
+      "description": "腊月初八与释迦牟尼成道纪念相联系。"
+    },
+    {
+      "period": "明清以后",
+      "description": "腊八粥等民间饮食习俗广泛传播。"
+    }
+  ],
+  "customs": [
+    {
+      "name": "食腊八粥",
+      "description": "用多种谷物、豆类、坚果等熬粥，配料因地而异。",
+      "regionalNotes": ""
+    },
+    {
+      "name": "寺院施粥",
+      "description": "部分寺院在腊八举行施粥等活动。",
+      "regionalNotes": ""
+    },
+    {
+      "name": "备年",
+      "description": "腊八后逐步进入更浓厚的年节准备阶段。",
+      "regionalNotes": ""
+    }
+  ],
+  "foods": [
+    {
+      "name": "腊八粥",
+      "description": "核心节食，配料与甜咸口味差异明显。",
+      "regionalVariations": [
+        "北方、江南、寺院等配方不同"
+      ]
+    },
+    {
+      "name": "腊八蒜",
+      "description": "以醋腌蒜，北方部分地区常见。",
+      "regionalVariations": [
+        "华北较常见"
+      ]
+    }
+  ],
+  "storiesAndFigures": [],
+  "regionalTraditions": [
+    "有些地区腊八习俗较淡，也有地区发展出独特粥料或祭祀方式。"
+  ],
+  "culturalMeaning": "岁末感恩、祈福、共享食物以及由冬藏向春节年俗过渡。",
+  "modernObservance": "家庭熬粥、寺院施粥、社区公益活动仍较常见。",
+  "notes": [],
+  "relatedCalendar": {
+    "nongli": "腊月初八",
+    "jieqi": null
+  },
+  "sources": []
+}
