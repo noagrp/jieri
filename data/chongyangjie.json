@@ -1,0 +1,87 @@
+{
+  "id": "chongyangjie",
+  "name": "重阳节",
+  "aliases": [
+    "重九"
+  ],
+  "dateRule": "九月初九",
+  "calendarSystem": "农历",
+  "summary": "农历九月初九的传统节日，以登高、赏菊、佩茱萸、饮菊花酒等习俗著称，现代又突出敬老主题。",
+  "origin": {
+    "overview": "“九”在传统数术中属阳数，九月九日两九相重，故称重阳、重九。节俗在汉代已有较明确记载。"
+  },
+  "history": [
+    {
+      "period": "汉代",
+      "description": "佩茱萸、食蓬饵、饮菊花酒等重九习俗已有记载。"
+    },
+    {
+      "period": "唐宋",
+      "description": "登高、赏菊、诗会等活动广泛流行。"
+    },
+    {
+      "period": "明清",
+      "description": "地方重阳节俗继续发展。"
+    },
+    {
+      "period": "现代",
+      "description": "传统节俗与尊老敬老主题结合。"
+    }
+  ],
+  "customs": [
+    {
+      "name": "登高",
+      "description": "秋日登山登台，是最具代表性的重阳活动。",
+      "regionalNotes": ""
+    },
+    {
+      "name": "赏菊",
+      "description": "九月菊花盛开，赏菊与重阳长期相连。",
+      "regionalNotes": ""
+    },
+    {
+      "name": "佩茱萸",
+      "description": "古代常见避邪祈福习俗。",
+      "regionalNotes": ""
+    },
+    {
+      "name": "敬老",
+      "description": "现代重阳被赋予更鲜明的尊老、敬老意义。",
+      "regionalNotes": ""
+    }
+  ],
+  "foods": [
+    {
+      "name": "重阳糕",
+      "description": "与登高谐意和节日祭食有关，地方做法不同。",
+      "regionalVariations": [
+        "各地糕点形态不同"
+      ]
+    },
+    {
+      "name": "菊花酒",
+      "description": "古代重阳饮品之一。",
+      "regionalVariations": [
+        "今天并非普遍日常习俗"
+      ]
+    }
+  ],
+  "storiesAndFigures": [],
+  "regionalTraditions": [
+    "各地还有放纸鸢、祭祖、回娘家等地方节俗。"
+  ],
+  "culturalMeaning": "登高祈福、秋日生命意识、长寿愿望与现代敬老价值。",
+  "modernObservance": "社区敬老活动、登高赏秋、非遗展演等是常见现代形式。",
+  "notes": [],
+  "relatedCalendar": {
+    "nongli": "九月初九",
+    "jieqi": null
+  },
+  "sources": [
+    {
+      "type": "official",
+      "organization": "中国非物质文化遗产网·中国非物质文化遗产数字博物馆",
+      "url": "https://www.ihchina.cn/project_details/14939/"
+    }
+  ]
+}
