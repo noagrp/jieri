@@ -1,0 +1,78 @@
+{
+  "id": "qixi",
+  "name": "七夕节",
+  "aliases": [
+    "乞巧节",
+    "女儿节"
+  ],
+  "dateRule": "七月初七",
+  "calendarSystem": "农历",
+  "summary": "与牛郎织女星宿传说、女性乞巧和手工技艺传统紧密相关的传统节日。",
+  "origin": {
+    "overview": "七夕与古人对牵牛、织女星的观察及相关神话发展有关，后来形成女子乞巧、祭星等丰富习俗。"
+  },
+  "history": [
+    {
+      "period": "先秦",
+      "description": "牵牛、织女星已见于古代文献与诗歌。"
+    },
+    {
+      "period": "汉魏以后",
+      "description": "牛郎织女叙事逐渐丰富，七月七日节俗发展。"
+    },
+    {
+      "period": "唐宋明清",
+      "description": "乞巧、穿针、祭星和女性节俗不断地方化。"
+    }
+  ],
+  "customs": [
+    {
+      "name": "乞巧",
+      "description": "女子通过穿针、陈设瓜果等方式祈求心灵手巧。",
+      "regionalNotes": ""
+    },
+    {
+      "name": "拜织女",
+      "description": "部分地区祭拜织女星，祈求技艺、姻缘或家庭幸福。",
+      "regionalNotes": ""
+    },
+    {
+      "name": "观星",
+      "description": "七夕夜观察牵牛、织女相关星象，带有浓厚诗意和民间想象。",
+      "regionalNotes": ""
+    }
+  ],
+  "foods": [
+    {
+      "name": "巧果",
+      "description": "与乞巧有关的面食或油炸点心，各地做法不同。",
+      "regionalVariations": [
+        "江浙等地较常见"
+      ]
+    }
+  ],
+  "storiesAndFigures": [
+    {
+      "name": "牛郎织女",
+      "relationship": "七夕最具代表性的爱情与星宿传说。",
+      "historicalNote": "传说形态经历长期演变；七夕历史文化不只等同于现代“情人节”。"
+    }
+  ],
+  "regionalTraditions": [
+    "满、朝鲜、壮、侗、苗、畲等多个民族和不同地区存在不同七夕称谓与习俗。"
+  ],
+  "culturalMeaning": "女性技艺、星宿信仰、爱情叙事与家庭愿望。",
+  "modernObservance": "现代常被赋予爱情节日色彩，但传统乞巧、女性技艺和星宿文化仍是理解七夕的重要部分。",
+  "notes": [],
+  "relatedCalendar": {
+    "nongli": "七月初七",
+    "jieqi": null
+  },
+  "sources": [
+    {
+      "type": "official",
+      "organization": "中国非物质文化遗产网·中国非物质文化遗产数字博物馆",
+      "url": "https://www.ihchina.cn/project_details/14926/"
+    }
+  ]
+}
