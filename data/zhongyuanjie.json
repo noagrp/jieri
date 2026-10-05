@@ -64,5 +64,11 @@
     "nongli": "七月十五前后",
     "jieqi": null
   },
-  "sources": []
+  "sources": [
+    {
+      "type": "official",
+      "organization": "湖南省人民政府门户网站",
+      "url": "https://searchs.hunan.gov.cn/hnszf/jxxx/hxwh/gms/201711/t20171111_4685297.html"
+    }
+  ]
 }
