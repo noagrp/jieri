@@ -1,0 +1,80 @@
+{
+  "id": "qingmingjie",
+  "name": "清明节",
+  "aliases": [
+    "三月节"
+  ],
+  "dateRule": "清明节气前后",
+  "calendarSystem": "节气",
+  "summary": "二十四节气中少数同时发展为重要传统节日的节点，核心包括祭祖扫墓、慎终追远和春日踏青。",
+  "origin": {
+    "overview": "清明本为节气名称，随着寒食、上巳等春季习俗长期汇合，逐渐形成今天兼具祭祖与踏青特征的清明节。"
+  },
+  "history": [
+    {
+      "period": "先秦至汉",
+      "description": "春季祭祀、上巳等活动已有传统基础。"
+    },
+    {
+      "period": "唐宋",
+      "description": "寒食、扫墓与清明逐渐紧密结合，祭扫习俗得到制度与社会层面的强化。"
+    },
+    {
+      "period": "明清以后",
+      "description": "清明祭祖扫墓和踏青成为广泛民俗。"
+    }
+  ],
+  "customs": [
+    {
+      "name": "扫墓祭祖",
+      "description": "整修墓地、献花或供品、追思先人，是清明核心习俗。",
+      "regionalNotes": ""
+    },
+    {
+      "name": "踏青",
+      "description": "利用春日气候外出游春、亲近自然。",
+      "regionalNotes": ""
+    },
+    {
+      "name": "插柳与春游活动",
+      "description": "部分地区流传插柳、放风筝等习俗。",
+      "regionalNotes": "并非全国统一。"
+    }
+  ],
+  "foods": [
+    {
+      "name": "青团",
+      "description": "以艾草、浆麦草等绿色植物汁与糯米制成的时令食品。",
+      "regionalVariations": [
+        "江南较常见"
+      ]
+    },
+    {
+      "name": "寒食类食品",
+      "description": "部分清明食俗与寒食传统有历史联系。",
+      "regionalVariations": [
+        "地区差异明显"
+      ]
+    }
+  ],
+  "storiesAndFigures": [],
+  "regionalTraditions": [
+    "不同地区祭扫时间、供品、仪式和春游习惯差异明显。"
+  ],
+  "culturalMeaning": "慎终追远、家族记忆、祖先祭祀以及人与春季自然节律的联系。",
+  "modernObservance": "现代常见鲜花祭扫、网络纪念、文明祭扫等新方式。",
+  "notes": [
+    "清明节的日期由清明节气决定，不按固定农历月日。"
+  ],
+  "relatedCalendar": {
+    "nongli": null,
+    "jieqi": "清明节气前后"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "organization": "中国非物质文化遗产网·中国非物质文化遗产数字博物馆",
+      "url": "https://www.ihchina.cn/project_details/14907.html"
+    }
+  ]
+}
